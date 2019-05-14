@@ -1,0 +1,105 @@
+  .sky-container {
+    width: 100%;
+    background-color: #101010;
+    overflow: hidden;
+    position: relative;
+  }
+
+  
+  .star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 2px;
+    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    filter: drop-shadow(0 0 6px #699bff);
+    animation: tail 5000ms ease-in-out infinite, shooting 5000ms ease-in-out infinite;
+}
+  
+  
+  .star:nth-child(1) {
+    top: calc(50% - 350px);
+    left: -10px;
+    animation-delay: 650ms;
+  }
+  .star:nth-child(1)::before, .star:nth-child(1)::after {
+    animation-delay: 650ms;
+  }
+  
+  .star:nth-child(2) {
+    top: calc(55% - 300px);
+    left: 0;
+    animation-delay: 150ms;
+  }
+  .star:nth-child(2)::before, .star:nth-child(2)::after {
+    animation-delay: 150ms;
+  }
+  
+  .star:nth-child(3) {
+    top: calc(60% - 250px);
+    left: 0;
+    animation-delay: 1600ms;
+  }
+  .star:nth-child(3)::before, .star:nth-child(3)::after {
+    animation-delay: 1600ms;
+  }
+  
+  .star:nth-child(4) {
+    top: calc(65% - 200px);
+    left: 0;
+    animation-delay: 3000ms;
+  }
+  .star:nth-child(4)::before, .star:nth-child(4)::after {
+    animation-delay: 3000ms;
+  }
+  
+  .star:nth-child(5) {
+    top: calc(70% - 150px);
+    left: 0;
+    animation-delay: 6000ms;
+  }
+  .star:nth-child(5)::before, .star:nth-child(5)::after {
+    animation-delay: 6000ms;
+  }
+  
+  .star:nth-child(6) {
+    top: calc(75% - 100px);
+    left: 0;
+    animation-delay: 12000ms;
+  }
+  .star:nth-child(6)::before, .star:nth-child(5)::after {
+    animation-delay: 12000ms;
+  }
+  .star:nth-child(7) {
+    top: calc(80% - 50px);
+    left: 0;
+    animation-delay: 450ms;
+  }
+  .star:nth-child(7)::before, .star:nth-child(5)::after {
+    animation-delay: 450ms;
+  }
+  
+  
+  /* Animations */
+  @keyframes tail {
+    0% {
+      width: 0px;
+    }
+    
+    30% {
+      width: 100px;
+    }
+    
+    100% {
+      width: 0px;
+    }
+  }
+  
+  @keyframes shooting {
+    0% {
+      transform: translate(0,0) rotate(25deg);
+    }
+    100% {
+      transform: translate(1300px, 320px) rotate(25deg);
+    }
+  }

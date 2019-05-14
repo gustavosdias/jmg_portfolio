@@ -1,0 +1,253 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-phantom{
+    visibility: hidden;
+}
+
+.navbar{
+    background-color: #3E83C0;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border-radius: 0;
+    border: none;
+    transition: top 0.5s;
+    margin-bottom: 20px;
+    transition: padding .3s linear;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li button{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li button:hover, .navbar-default .navbar-nav li button:active {
+    color: #FFF;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    box-shadow: none;
+
+}
+
+.navbar-default .navbar-nav li button:focus{
+    outline:none;
+}
+
+
+#home{
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #FFF;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.padding img{
+    width: 100%;
+}
+
+#fixed{
+    background: url(img/background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1{
+        font-size: 300%;
+    }
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
+
+.top-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+.topic{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#skills{
+    background: #f5f5f5;
+}
+
+.profile-pic{
+    display: block;
+    max-width: 230px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 30%;
+    border: 5px solid #399ac4;
+}
+
+.about-icon{
+    display: inline-block;
+    max-width: 230px;
+    max-height: 300px;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.wrapper-about-icon{
+    height: 185px;
+    border-radius: 50%;
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    transform: rotateY(720deg);
+    opacity: 0;
+}
+
+.wrapper-about-icon-rotated{
+    opacity: 1;
+    transform: rotateY(0);
+}
+
+.about-icon{
+    width: 100%;
+}
+
+.skill-wrapper{
+    text-align: center;
+    height: 200px;
+    background: blue;
+}
+
+.skill-wrapper figcaption{
+    visibility: hidden;
+}
+
+.container{
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+.svg{
+    display: inherit;
+    height: 70%;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo b{
+  font: 100 20vh "Vibur";
+color: #72aaf1;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4499ff, 0 0 0.5em #4499ff, 0 0 0.1em #5da1f5, 0 -6px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 4s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}

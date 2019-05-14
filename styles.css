@@ -1,0 +1,231 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body { height: 100%; width: 100%; margin: 0; padding: 0 }
+
+body{
+    background-color: #2f2a47;
+    position: relative;
+}
+
+body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+button:focus {outline:0;}
+
+
+button::-moz-focus-inner {border: 0;}
+  
+#main{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+#glass {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: #130945;
+   opacity: 0.5;
+   padding: 0;
+   margin: 0;
+
+}
+
+#profile{
+    width: 100%;
+    text-align: center;
+}
+
+#profile-image{
+    width: 125px;
+    height: 125px;
+    margin: 2em auto;
+    overflow: hidden;
+    border-radius: 50%;
+    animation-name: profile-image-animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    border: 4px solid #149b8c;
+}
+
+#profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes profile-image-animation{
+    to{
+        top: 0;
+    }
+}
+
+#profile-info{
+    margin: 2em auto;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#profile-info{
+    animation-name: profile-info-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes profile-info-animation{
+    to{
+        left: 0;
+    }
+}
+
+#menu{
+    margin: 0;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+
+#menu ul li{
+    display: inline;
+    
+}
+
+#menu ul li button{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #149b8c;
+    color: #d28ed7;
+    height: 100%;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+}
+
+#menu ul li button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#menu ul li button:not(:last-child){
+    border-right: 1px solid black;
+}
+
+#content{
+    height: 50%;
+    background: black;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+
+.slideshow-container {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+.mySlides {
+    display: none;
+    background: white none repeat scroll 0% 0%;
+    height: 100%;
+  }
+
+  .fade {
+      
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .slider {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    height: 60%;
+    scrollbar-width: none;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    height: 1000px;
+    scroll-behavior: smooth;
+    
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+  }
+
+
+
+  .slides > div {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+  
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+
+  .slider > a:focus {
+    background: #000;
+  }
