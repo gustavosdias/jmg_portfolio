@@ -18,43 +18,15 @@
         <!-- Home -->
         <div id="home">
             <div class="landing-text top-info">
-                <svg class="svg">
-                    <style>
-                        .test{
-                            stroke: blue;
-                            fill: black;
-                            stroke-dasharray: 1200;
-                            stroke-dashoffset: 0;
-                            -webkit-animation: dash 1.5s linear infinite;
-                        }
-
-                        @-webkit-keyframes dash{
-                                from {
-                                    stroke-dashoffset: 1200;
-                                }
-                                to {
-                                    stroke-dashoffset: 0;
-                                }
-                            }
-
-                        span{
-                            color: green;
-                        }
-
-
-                    </style>
-                     <filter id="f2" x="-40%" y="-40%" fill="#101010" width="200%" height="200%">
-                        <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0" />
-                        <feGaussianBlur result="blurOut" in="offOut" stdDeviation="40" />
-                        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-                    </filter>
-                    <circle class="test" cx="50%" cy="50%" r="160" stroke="black" stroke-width="3" filter="url(#f2)"/>
-                    <foreignObject fill="transparent" x="0" y="35%" width="500" height="500">
-                        
-                    </foreignObject>
-                </svg>
+                <div id="box">
+                    <div id="halfclip">
+                        <div class="halfcircle" id="clipped">
+                        </div>
+                    </div>
+                    <div class="halfcircle" id="fixedbla">
+                    </div>
+                </div>
                 <button id="top-info-button" class="btn btn-default btn-lg">Veja meu trabalho</button>
-                <div class="logo"><b><span>JMG</span></b></div>
             </div>
         </div>
 
@@ -102,7 +74,7 @@
                         <div class="wrapper-about-icon">
                             <object>
                                 <embed class="about-icon" src="img/creative.svg" width="250" height="75"></embed>
-                            </object>	
+                            </object>   
                         </div>
                         <h4>Criativo</h4>
                         <p>Gosto de pensar nas melhores opções para resolver algo.</p>
@@ -111,7 +83,7 @@
                         <div class="wrapper-about-icon">
                             <object>
                                 <embed class="about-icon" src="img/insightful.svg" width="250" height="75"></embed>
-                            </object>	
+                            </object>   
                         </div>
                         <h4>Perspicaz</h4>
                         <p>Sou bom em pensar nos detalhes quando faço algo. O resultado pode ser bem melhor quando as entrelinhas são lidas.</p>
@@ -120,7 +92,7 @@
                         <div class="wrapper-about-icon">
                             <object>
                                 <embed class="about-icon" src="img/organized.svg" width="250" height="75"></embed>
-                            </object>	
+                            </object>   
                         </div>
                         <h4>Organizado</h4>
                         <p>Uma boa organização não só traz prevenção a problemas, mas ajuda bastante em todos os processos de um planejamento e desenvolvimento de software.</p>
@@ -129,7 +101,7 @@
                         <div class="wrapper-about-icon">
                             <object>
                                 <embed class="about-icon" src="img/passionate.svg" width="250" height="75"></embed>
-                            </object>	
+                            </object>   
                         </div>
                         <h4>Apaixonado</h4>
                         <p>Tenho paixão e dedicação naquilo que faço, com a intenção de sempre aprender e me divertir.</p>
