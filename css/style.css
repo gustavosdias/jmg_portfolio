@@ -58,15 +58,6 @@ html, body{
 }
 
 
-#home{
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    color: #FFF;
-}
-
 .landing-text{
     display: table-cell;
     text-align: center;
