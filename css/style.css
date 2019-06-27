@@ -12,6 +12,10 @@ html, body{
     visibility: hidden;
 }
 
+#home{
+    height: 100%;
+}
+
 .navbar{
     background-color: #050b39;
     padding: 1% 0;
