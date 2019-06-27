@@ -7,7 +7,11 @@
     border-width: 0px 1px 1px 0px;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
-
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
   }
   
   .arrow:hover {
@@ -15,9 +19,3 @@
     border-right-width: 4px;
   }
   
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
