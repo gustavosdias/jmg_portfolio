@@ -17,7 +17,7 @@ html, body{
 }
 
 .navbar{
-    background-color: #050b39;
+    background-color: #445985;
     padding: 1% 0;
     font-size: 1.2em;
     font-family: fonte;
@@ -89,7 +89,7 @@ html, body{
 
 footer{
     width: 100%;
-    background-color: #050b39;
+    background-color: #445985;
     padding: 5% 5% 10% 5%;
     color: #FFF;
 }
@@ -161,14 +161,14 @@ footer{
     width: auto;
     height: 200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .wrapper-about-icon{
     height: 185px;
     border-radius: 50%;
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
-    
     transition: all 1s ease-in-out;
     transform: rotateY(720deg);
     border-color: 1px solid blue;
