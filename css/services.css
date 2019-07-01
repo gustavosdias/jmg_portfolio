@@ -1,0 +1,85 @@
+
+.wrapper .panel {
+  overflow: hidden;
+  position: relative;
+  padding: 0 20px 20px;
+  height: 550px;
+  text-align: center;
+  background: #F1F1F1;
+  border: 1px solid #30bb57;
+}
+.wrapper .panel img {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.wrapper .panel h3 {
+  display: block;
+  margin-bottom: 15px;
+  color: #30bb57;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 2px 1px #FFF;
+}
+.wrapper .panel p {
+  font-size: 14px;
+  text-shadow: 0 1px 1px #FFF;
+}
+.wrapper .panel .slide {
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  background: rgba(1, 61, 71, 0.95);
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+  overflow: auto;
+}
+.wrapper .panel .slide h4 {
+  margin-bottom: 20px;
+  text-align: left;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #39cc62;
+}
+
+.wrapper .panel .slide ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper .panel .slide ul li {
+  line-height: 24px;
+  max-height: 50px;
+  font-size: 13px;
+  color: #F0F0F0;
+  border-bottom: 1px solid #3e737b;
+}
+.wrapper .panel .slide ul li:last-child {
+  border: 0;
+}
+.wrapper .panel .slide ul li .fa {
+  padding-right: 5px;
+  color: #39cc62;
+}
+
+p.title {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  height: 36px;
+  width: 890px;
+  background: #013d47;
+  border: 1px solid #2ba74e;
+  color: #FFF;
+  text-align: center;
+  border-radius: 5px;
+}
+
