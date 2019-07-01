@@ -36,29 +36,43 @@
         </div>
                
 
-        <!-- NAVBAR -->
-        <nav id="nav-phantom" class="navbar navbar-default" role="navigation"></nav>
-        <nav id="nav" class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                    <ul class="nav navbar-nav navbar-center">
-                        <li><button id="menu-home" class="btn btn-default btn-lg">Início</button></li>
-                        <li><button id="menu-about" class="btn btn-default btn-lg">Quem Somos</button></li>
-                        <li><button id="menu-skills" class="btn btn-default btn-lg">Habilidades</button></li>
-                        <li><button id="menu-skills" class="btn btn-default btn-lg">Nossos Serviços</button></li>
-                        <li><button id="menu-contact" class="btn btn-default btn-lg">Contato</button></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
         
         <!-- About -->
         <div id="about" class="padding">
@@ -113,15 +127,14 @@
 
         <!-- Skills -->
         <div id="skills" class="padding">
-            <div id="skills-row" class="container">
-                <h2 class="topic">Habilidades</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="lead">Desenvolvemos soluções em diversas plataformas focando sempre em segurança e performance. Vastas habilidades em computação visual, sistemas distribuídos, desenvolvimento mobile e outros.</p>
-                        <p class="lead"> Somos formados por uma equipe de desenvolvedores experientes, criativos e atualizados com as últimas tecnologias do mercado para atender de forma eficaz as diversas necessidades dos clientes.</p>
-                    </div>
-                    <div class="skills-progress-wrapper col-md-6">
-                        <h4>Experiência</h4>
+            <div class="static-background">
+                <div id="skills-row" class="container">
+                    <h2 class="topic">Habilidades</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="skill-lead text-center">Desenvolvemos soluções em diversas plataformas focando sempre em segurança e performance. Vastas habilidades em computação visual, sistemas distribuídos, desenvolvimento mobile e outros.</p>
+                            <p class="skill-lead text-center"> Somos formados por uma equipe de desenvolvedores experientes, criativos e atualizados com as últimas tecnologias do mercado para atender de forma eficaz as diversas necessidades dos clientes.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,6 +142,7 @@
 
         <div id="services">
             <div class="container">
+                 <h2 class="topic">Serviços</h2>
                 <div class="row justify-content-center wrapper">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 panel animated slideInDown">
                         <img src="http://timruby.me/42c-icon.png" alt="" />

@@ -130,7 +130,25 @@ footer{
 }
 
 #skills{
-    background: #f5f5f5;
+    color: white;
+    background: url(../img/skills.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.static-background{
+    background-color: rgba(0,0,0,0.7);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .profile-pic{
@@ -211,12 +229,8 @@ p{
 	text-align: right;
 }
 
-#services{
-    background: url(../img/background.jpg) no-repeat center center fixed;
-    display: table;
-    height: 60%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
+.skill-lead{
+    font-weight: 1000;
 }
+
+ 
