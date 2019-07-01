@@ -78,15 +78,6 @@ html, body{
     width: 100%;
 }
 
-#fixed{
-    background: url(img/background.jpg) no-repeat center center fixed;
-    display: table;
-    height: 60%;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-}
-
 footer{
     width: 100%;
     background-color: #445985;
@@ -201,4 +192,31 @@ footer{
 
 p{
     text-align: justify;
+}
+
+
+.service-icon{
+	background: #ff033d;
+	text-align: center;
+	color: #ffffff;
+}
+
+.service-icon i {
+	font-size: 45px;
+	padding: 35px 9px;
+
+}
+
+.services-text-left{
+	text-align: right;
+}
+
+#services{
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
 }
