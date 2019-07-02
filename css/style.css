@@ -1,3 +1,8 @@
+*{
+    
+}
+
+
 html, body{
     height: 100%;
     width: 100%;
@@ -20,7 +25,6 @@ html, body{
     background-color: #445985;
     padding: 1% 0;
     font-size: 1.2em;
-    font-family: fonte;
     border-radius: 0;
     border: none;
     transition: top 0.5s;
@@ -37,18 +41,13 @@ html, body{
     
 }
 
-.navbar-brand{
-    min-height: 55px;
-    padding: 0 15px 5px;
-}
-
-.navbar-default .navbar-nav li button{
+.navbar-default li button{
     background-color: rgba(0,0,0,0);
     border: none;
     color: #FFFFFF;
 }
 
-.navbar-default .navbar-nav li button:hover, .navbar-default .navbar-nav li button:active {
+.navbar-default li button:hover, .navbar-default .navbar-nav li button:active {
     color: #050b39;
     border: none;
     background-color: #D5D5D5;

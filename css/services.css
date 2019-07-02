@@ -28,13 +28,13 @@
 }
 .wrapper .panel .slide {
   position: absolute;
-  bottom: -110px;
+  bottom: -180px;
   left: 0;
   padding: 20px;
   height: 100%;
   width: 100%;
   text-align: left;
-  background: rgba(1, 61, 71, 0.95);
+  background: rgb(80, 112, 174);
   box-sizing: border-box;
   transition: all 300ms ease-in-out;
   overflow: auto;
@@ -55,7 +55,7 @@
 
 .wrapper .panel .slide ul li {
   line-height: 24px;
-  max-height: 50px;
+  max-height: 40px;
   font-size: 13px;
   color: #F0F0F0;
   border-bottom: 1px solid #3e737b;

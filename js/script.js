@@ -37,8 +37,8 @@ $("#menu-about").click(function() {
     });
 
     page.animate({
-        scrollTop: $("#about").offset().top},
-        'slow');
+        scrollTop: $("#about").offset().top - $("#nav").height() * 2},
+            'slow');
 });
 
 $("#menu-skills").click(function() {
@@ -135,4 +135,19 @@ $(document).ready(function() {
             $('.progress-value').removeClass('progress-value-hidden');
         }
     });
+
+
+    // Custom function which toggles between sticky class (is-sticky)
+    var stickyToggle = function (sticky, stickyWrapper, scrollElement) {
+        var stickyHeight = sticky.outerHeight();
+        var stickyTop = stickyWrapper.offset().top;
+        if (scrollElement.scrollTop() >= stickyTop) {
+            stickyWrapper.height(stickyHeight);
+            sticky.addClass("is-sticky");
+        }
+        else {
+            sticky.removeClass("is-sticky");
+            stickyWrapper.height('auto');
+        }
+    };
 });
