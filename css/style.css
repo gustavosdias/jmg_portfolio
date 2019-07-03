@@ -78,10 +78,14 @@ html, body{
 }
 
 footer{
+    color: white;
+    background: url(../img/contactback.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
     width: 100%;
-    background-color: #445985;
-    padding: 5% 5% 10% 5%;
-    color: #FFF;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .fa{
