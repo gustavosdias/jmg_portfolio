@@ -14,7 +14,7 @@
                 particles.disintegrate();
                 buttonVisible = !buttonVisible;
       
-                setTimeout(bla,3000);
+                setTimeout(bla,5000);
              
             }
         });
