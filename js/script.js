@@ -16,7 +16,6 @@ $("#top-info-button").click(function() {
             scrollTop: $("#about").offset().top},
             'slow');
     }
-    
 });
 
 $("#menu-home").click(function() {
@@ -37,7 +36,7 @@ $("#menu-about").click(function() {
     });
 
     page.animate({
-        scrollTop: $("#about").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#about h2").offset().top - $("#nav").height() * 2},
             'slow');
 });
 
@@ -47,9 +46,9 @@ $("#menu-skills").click(function() {
         page.stop();
     });
 
-    page.animate({
-        scrollTop: $("#skills").offset().top},
-        'slow');
+   page.animate({
+        scrollTop: $("#skills h2").offset().top - $("#nav").height() * 2},
+            'slow');
 });
 
 $("#menu-portfolio").click(function() {
@@ -58,32 +57,11 @@ $("#menu-portfolio").click(function() {
         page.stop();
     });
 
-    page.animate({
-        scrollTop: $("#portfolio").offset().top},
-        'slow');
+   page.animate({
+        scrollTop: $("#portfolio h2").offset().top - $("#nav").height() * 2},
+            'slow');
 });
 
-$("#menu-home").click(function() {
-
-    page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
-        page.stop();
-    });
-
-    page.animate({
-        scrollTop: $("#home").offset().top},
-        'slow');
-});
-
-$("#menu-home").click(function() {
-
-    page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
-        page.stop();
-    });
-
-    page.animate({
-        scrollTop: $("#home").offset().top},
-        'slow');
-});
 
 $("#menu-contact").click(function() {
 
@@ -91,10 +69,22 @@ $("#menu-contact").click(function() {
         page.stop();
     });
 
-    page.animate({
-        scrollTop: $("#contact").offset().top},
-        'slow');
+  page.animate({
+        scrollTop: $("#form-div").offset().top - $("#nav").height() * 2},
+            'slow');
 });
+
+$("#menu-services").click(function() {
+
+    page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
+        page.stop();
+    });
+
+  page.animate({
+        scrollTop: $("#services h2").offset().top - $("#nav").height() * 2},
+            'slow');
+});
+
 
 
 $(document).ready(function() {
