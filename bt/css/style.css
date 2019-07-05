@@ -10,6 +10,11 @@ body{
 	--border-button: 0;
 }
 
+.particles {
+	position: relative;
+
+}
+
 .btdiv{
 position: relative;
 align-items: center;
@@ -17,6 +22,7 @@ justify-items: center;
 margin: 0 auto;
 font-family: fonte;
 font-size: 1.5em;
+
 }
 
 .pdiv{
@@ -26,9 +32,9 @@ font-size: 1.5em;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color:  black;
-	font-size: 2em;
+	font-size:1.8em;
 	font-family: fonte;
-
+	z-index: -1;
 
 }
 
@@ -45,7 +51,7 @@ font-size: 1.5em;
 	display: inline-block;
 	overflow: hidden;
 	will-change: transform;
-	z-index:5;
+
 }
 
 .particles-button:hover{
@@ -53,8 +59,17 @@ font-size: 1.5em;
 color: black;
 
 }
-.particles-button {
 
+.particles-button:focus {
+	outline: none;
+}
+
+.particles-button {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 	position: relative;
 	background: #4e73bc;
@@ -63,6 +78,5 @@ color: black;
     border-radius: 5px;
 	margin: 0;
 	padding: 1rem 6rem;
-
 	will-change: transform;
 }
