@@ -4,10 +4,26 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+	.gear {
+		animation: rotation 2s infinite linear;
+	    transform-origin: 50% 50%;
+	}
+
+	@keyframes rotation {
+	    from {transform: rotate(0deg);}
+	    to   {transform: rotate(359deg);}
+	}
+
 </style>
+
+
+
+
 <g id="Tempo">
 	<g id="LWPOLYLINE">
-		<path class="st0" d="M328.8,288.8v124.8h126.2C454.4,344.4,398,288.7,328.8,288.8z"/>
+		<path id="test" class="st0 gear" d="M328.8,288.8v124.8h126.2C454.4,344.4,398,288.7,328.8,288.8z">
+		</path>				
 	</g>
 </g>
 <g id="Circulo_3">
@@ -78,4 +94,28 @@
 			L0.1,396z"/>
 	</g>
 </g>
+
+ <script type="text/javascript"><![CDATA[
+    //addRotateTransform('Tempo', 12, 1);
+
+    function addRotateTransform(target_id, speed, direction) {
+      var element_to_rotate = document.getElementById(target_id);
+      var my_transform = document.createElementNS("http://www.w3.org/2000/svg", "animateTransform");
+
+      var bb = element_to_rotate.getBBox();
+      var cx = bb.x + bb.width/2;
+      var cy = bb.y + bb.height/2;
+
+      my_transform.setAttributeNS(null, "attributeName", "transform");
+      my_transform.setAttributeNS(null, "type", "rotate");
+      my_transform.setAttributeNS(null, "dur", speed + "s");
+      my_transform.setAttributeNS(null, "repeatCount", "indefinite");
+      my_transform.setAttributeNS(null, "from", "0 "+cx+" "+cy);
+      my_transform.setAttributeNS(null, "to", 360*direction+" "+cx+" "+cy);
+
+      element_to_rotate.appendChild(my_transform);
+      my_transform.beginElement();
+    }
+  ]]></script>
+
 </svg>
