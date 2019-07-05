@@ -1,0 +1,68 @@
+
+body{
+
+    --color-item-bg: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+	--color-action: #121019;
+	--color-button-bg: #121019;
+	--color-button-text: #fff;
+	--button-padding: 1.5rem 4rem;
+	--radius-button: 5px;
+	--border-button: 0;
+}
+
+.btdiv{
+position: relative;
+align-items: center;
+justify-items: center;
+margin: 0 auto;
+font-family: fonte;
+font-size: 1.5em;
+}
+
+.pdiv{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:  black;
+	font-size: 2em;
+	font-family: fonte;
+
+
+}
+
+.particles-canvas {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%,0);
+}
+
+.particles-wrapper {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	will-change: transform;
+	z-index:5;
+}
+
+.particles-button:hover{
+
+color: black;
+
+}
+.particles-button {
+
+	user-select: none;
+	position: relative;
+	background: #4e73bc;
+	color: whitesmoke;
+	border: 0;
+    border-radius: 5px;
+	margin: 0;
+	padding: 1rem 6rem;
+
+	will-change: transform;
+}
