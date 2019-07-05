@@ -15,11 +15,12 @@
                 buttonVisible = !buttonVisible;
       
                 setTimeout(bla,5000);
+             
             }
         });
         function bla() {
             if ( !buttonVisible ) {
-
+                particles.pause();
                 particles.integrate({
                     duration: 1000,
                     easing: 'easeOutSine'
