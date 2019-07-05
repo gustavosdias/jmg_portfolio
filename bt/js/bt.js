@@ -14,12 +14,13 @@
                 particles.disintegrate();
                 buttonVisible = !buttonVisible;
       
-                setTimeout(bla,5000);
+                setTimeout(bla,3000);
+             
             }
         });
         function bla() {
             if ( !buttonVisible ) {
-
+                particles.pause();
                 particles.integrate({
                     duration: 1000,
                     easing: 'easeOutSine'
