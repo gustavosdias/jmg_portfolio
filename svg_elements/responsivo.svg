@@ -7,7 +7,7 @@
 	.screen{fill:#84a8f9;}
 	.screen-border{fill:black; stroke:white;}
 	.device-border{stroke:white;}
-	.screen-support{fill: #f3f2f2;}
+	.screen-support{fill: #CDC5BF;}
 	.button{stroke:white;}
 </style>
 <g id="Monitor">
