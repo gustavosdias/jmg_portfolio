@@ -224,7 +224,7 @@
 
  <script type="text/javascript"><![CDATA[
     addRotateTransform('Engrenagem_1', 6, 1);
-    addRotateTransform('Engrenagem_2', 6, 1);
+    addRotateTransform('Engrenagem_2', 6, -1);
     addRotateTransform('Engrenagem_3', 6, 1);
 
     function addRotateTransform(target_id, speed, direction) {
