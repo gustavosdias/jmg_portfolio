@@ -4,7 +4,7 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.screen{fill:#425888;}
+	.screen{fill:#84a8f9;}
 	.screen-border{fill:black; stroke:white;}
 	.device-border{stroke:white;}
 	.screen-support{fill: #f3f2f2;}
@@ -23,7 +23,10 @@
 		<path class="st0 screen-border" d="M108.8,218.6H499c2,1.6,3.5,3.7,4.5,6l0.1,237.6l-401.5-0.6V224.9c1.5-2.6,3.6-4.8,6.2-6.3H108.8z"/>
 	</g>
 	<g id="LWPOLYLINE_2_">
-		<polygon class="st0 screen" points="120.4,441.5 485.1,441.5 485.1,237.3 121.5,237.3 		"/>
+		<polygon class="st0 screen" points="120.4,441.5 485.1,441.5 485.1,237.3 121.5,237.3">
+			<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; c_show.end" dur="1s" fill="freeze"/>
+    		<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur="1s" fill="freeze"/>
+		</polygon>
 	</g>
 	<g id="LWPOLYLINE_13_">
 		<path class="st0 screen-support" d="M258.6,507.8l90.8,0v35.8c6.4,7.9,15.8,12.8,25.9,13.3v1.7H232.7v-1.7c10.1-0.5,19.6-5.4,25.9-13.3V507.8z"/>
@@ -35,10 +38,13 @@
 			h-109c-2.2-0.4-3.9-2.3-3.9-4.6L326.8,401.9"/>
 	</g>
 	<g id="LWPOLYLINE_8_">
-		<polyline class="st0 screen" points="333.5,409.4 434.3,409.4 434.3,542.9 333.5,542.9 333.5,409.4 		"/>
+		<polyline class="st0 screen" points="333.5,409.4 434.3,409.4 434.3,542.9 333.5,542.9 333.5,409.4">
+			<set id="t_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_show.end" dur="1s" fill="freeze"/>
+    		<set id="t_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="t_show.end" dur="1s" fill="freeze"/>
+		</polyline>
 	</g>
 	<g id="LWPOLYLINE_9_">
-		<polyline class="st0 button" points="378.6,548.4 389.2,548.4 389.2,552.7 378.5,552.7 378.5,548.4 		"/>
+		<polyline class="st0 button" points="378.6,548.4 389.2,548.4 389.2,552.7 378.5,552.7 378.5,548.4"/>
 	</g>
 </g>
 <g id="Celular">
@@ -47,7 +53,10 @@
 			c0.2-3,2.7-5.2,5.7-5.1l46.4,0c2.9,0.9,4.8,3.6,4.8,6.6c0,0,0,104.6,0,104.6c0,2.1-1.6,3.9-3.8,4.1h-48.9"/>
 	</g>
 	<g id="LWPOLYLINE_12_">
-		<polyline class="st0 screen" points="405.5,456.1 454.5,456.1 454.5,545.4 405.2,545.4 405.5,456.1 		"/>
+		<polyline class="st0 screen" points="405.5,456.1 454.5,456.1 454.5,545.4 405.2,545.4 405.5,456.1">
+			<set id="c_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; t_show.end" dur="1s" fill="freeze"/>
+    		<set id="c_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="c_show.end" dur="1s" fill="freeze"/>
+		</polyline>
 	</g>
 	<g id="LWPOLYLINE_10_">
 		<polyline class="st0 button" points="426.5,550.1 433.8,550.1 433.8,553 426.5,553 426.5,550.1 		"/>
