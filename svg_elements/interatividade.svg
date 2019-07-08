@@ -4,13 +4,15 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-
+	.mao{fill: #ffcd94;}
+	.circ-peq{fill:#85a9fd;}
+	.circ-medio{fill:#425888;}
 
 
 </style>
 <g id="Circulo_medio_1">
 	<g id="CIRCLE">
-		<path class="st0" d="M144.2,433.8c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M144.2,433.8c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
 			C153.7,455.1,144.2,445.6,144.2,433.8L144.2,433.8z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -19,7 +21,7 @@
 </g>
 <g id="Circulo_medio_2">
 	<g id="CIRCLE_1_">
-		<path class="st0" d="M124.2,358.4c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M124.2,358.4c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			C133.7,379.8,124.2,370.2,124.2,358.4L124.2,358.4z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -28,7 +30,7 @@
 </g>
 <g id="Circulo_medio_3">
 	<g id="CIRCLE_2_">
-		<path class="st0" d="M144.2,283.5c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M144.2,283.5c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			C153.7,304.8,144.2,295.3,144.2,283.5L144.2,283.5z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -37,7 +39,7 @@
 </g>
 <g id="Circulo_medio_4">
 	<g id="CIRCLE_3_">
-		<path class="st0" d="M198.6,228.3c0-11.8,9.5-21.3,21.3-21.3s21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M198.6,228.3c0-11.8,9.5-21.3,21.3-21.3s21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			S198.6,240.1,198.6,228.3L198.6,228.3z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -46,7 +48,7 @@
 </g>
 <g id="Circulo_medio_5">
 	<g id="CIRCLE_4_">
-		<path class="st0" d="M274,209.1c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M274,209.1c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
 			C283.5,230.4,274,220.9,274,209.1L274,209.1z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -55,7 +57,7 @@
 </g>
 <g id="Circulo_medio_6">
 	<g id="CIRCLE_5_">
-		<path class="st0" d="M350.2,229.3c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M350.2,229.3c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3s-9.5,21.3-21.3,21.3
 			C359.7,250.6,350.2,241.1,350.2,229.3L350.2,229.3z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -64,7 +66,7 @@
 </g>
 <g id="Circulo_medio_7">
 	<g id="CIRCLE_6_">
-		<path class="st0" d="M404.3,283.6c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M404.3,283.6c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			C413.9,304.9,404.3,295.3,404.3,283.6L404.3,283.6z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -73,7 +75,7 @@
 </g>
 <g id="Circulo_medio_8">
 	<g id="CIRCLE_7_">
-		<path class="st0" d="M424.1,358.6c0-11.8,9.5-21.3,21.3-21.3s21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M424.1,358.6c0-11.8,9.5-21.3,21.3-21.3s21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			S424.1,370.4,424.1,358.6L424.1,358.6z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -82,7 +84,7 @@
 </g>
 <g id="Circulo_medio_9">
 	<g id="CIRCLE_8_">
-		<path class="st0" d="M404.4,434.6c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
+		<path class="st0 circ-medio" d="M404.4,434.6c0-11.8,9.5-21.3,21.3-21.3c11.8,0,21.3,9.5,21.3,21.3c0,11.8-9.5,21.3-21.3,21.3
 			C413.9,455.9,404.4,446.4,404.4,434.6L404.4,434.6z">
 				<set id="m_show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show4.end" dur=".2s" fill="freeze"/>
     			<set id="m_hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide4.end" dur=".2s" fill="freeze"/>
@@ -91,7 +93,7 @@
 </g>
 <g id="Circulo_peq_1">
 	<g id="CIRCLE_9_">
-		<path class="st0" d="M193,414.7c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C195.2,419.6,193,417.4,193,414.7L193,414.7z">
+		<path class="st0 circ-peq" d="M193,414.7c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C195.2,419.6,193,417.4,193,414.7L193,414.7z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -99,7 +101,7 @@
 </g>
 <g id="Circulo_peq_2">
 	<g id="CIRCLE_10_">
-		<path class="st0" d="M211.6,403.8c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C213.9,408.7,211.6,406.5,211.6,403.8
+		<path class="st0 circ-peq" d="M211.6,403.8c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C213.9,408.7,211.6,406.5,211.6,403.8
 			L211.6,403.8z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
@@ -108,7 +110,7 @@
 </g>
 <g id="Circulo_peq_3">
 	<g id="CIRCLE_11_">
-		<path class="st0" d="M230.3,393.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C232.6,398.2,230.3,396,230.3,393.2L230.3,393.2z">
+		<path class="st0 circ-peq" d="M230.3,393.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C232.6,398.2,230.3,396,230.3,393.2L230.3,393.2z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -116,7 +118,7 @@
 </g>
 <g id="Circulo_peq_4">
 	<g id="CIRCLE_12_">
-		<path class="st0" d="M248.5,382.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C250.8,387.1,248.5,384.9,248.5,382.2L248.5,382.2z">
+		<path class="st0 circ-peq" d="M248.5,382.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C250.8,387.1,248.5,384.9,248.5,382.2L248.5,382.2z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -124,7 +126,7 @@
 </g>
 <g id="Circulo_peq_8">
 	<g id="CIRCLE_13_">
-		<path class="st0" d="M242.2,358.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S242.2,361.2,242.2,358.4L242.2,358.4z">
+		<path class="st0 circ-peq" d="M242.2,358.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S242.2,361.2,242.2,358.4L242.2,358.4z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -132,7 +134,7 @@
 </g>
 <g id="Circulo_peq_7">
 	<g id="CIRCLE_14_">
-		<path class="st0" d="M221.1,358.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S221.1,360.8,221.1,358.1L221.1,358.1z">
+		<path class="st0 circ-peq" d="M221.1,358.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S221.1,360.8,221.1,358.1L221.1,358.1z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -140,7 +142,7 @@
 </g>
 <g id="Circulo_peq_6">
 	<g id="CIRCLE_15_">
-		<path class="st0" d="M199,358.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S199,360.8,199,358.1L199,358.1z">
+		<path class="st0 circ-peq" d="M199,358.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S199,360.8,199,358.1L199,358.1z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -148,7 +150,7 @@
 </g>
 <g id="Circulo_peq_5">
 	<g id="CIRCLE_16_">
-		<path class="st0" d="M177.8,358.1c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C180.1,363.1,177.8,360.8,177.8,358.1L177.8,358.1z">
+		<path class="st0 circ-peq" d="M177.8,358.1c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C180.1,363.1,177.8,360.8,177.8,358.1L177.8,358.1z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -156,7 +158,7 @@
 </g>
 <g id="Circulo_peq_12">
 	<g id="CIRCLE_17_">
-		<path class="st0" d="M248.9,333.9c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S248.9,336.6,248.9,333.9L248.9,333.9z">
+		<path class="st0 circ-peq" d="M248.9,333.9c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S248.9,336.6,248.9,333.9L248.9,333.9z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -164,7 +166,7 @@
 </g>
 <g id="Circulo_peq_11">
 	<g id="CIRCLE_18_">
-		<path class="st0" d="M230.2,323.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S230.2,326.1,230.2,323.4L230.2,323.4z">
+		<path class="st0 circ-peq" d="M230.2,323.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S230.2,326.1,230.2,323.4L230.2,323.4z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -172,7 +174,7 @@
 </g>
 <g id="Circulo_peq_10">
 	<g id="CIRCLE_19_">
-		<path class="st0" d="M211.5,312.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C213.7,317.2,211.5,315,211.5,312.2L211.5,312.2z">
+		<path class="st0 circ-peq" d="M211.5,312.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C213.7,317.2,211.5,315,211.5,312.2L211.5,312.2z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -180,7 +182,7 @@
 </g>
 <g id="Circulo_peq_9">
 	<g id="CIRCLE_20_">
-		<path class="st0" d="M193.3,301.7c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S193.3,304.4,193.3,301.7L193.3,301.7z">
+		<path class="st0 circ-peq" d="M193.3,301.7c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S193.3,304.4,193.3,301.7L193.3,301.7z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -188,7 +190,7 @@
 </g>
 <g id="Circulo_peq_16">
 	<g id="CIRCLE_21_">
-		<path class="st0" d="M265.8,316.5c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C268,321.4,265.8,319.2,265.8,316.5L265.8,316.5z">
+		<path class="st0 circ-peq" d="M265.8,316.5c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C268,321.4,265.8,319.2,265.8,316.5L265.8,316.5z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -196,7 +198,7 @@
 </g>
 <g id="Circulo_peq_15">
 	<g id="CIRCLE_22_">
-		<path class="st0" d="M256.2,298c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S256.2,300.7,256.2,298L256.2,298z">
+		<path class="st0 circ-peq" d="M256.2,298c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S256.2,300.7,256.2,298L256.2,298z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -204,7 +206,7 @@
 </g>
 <g id="Circulo_peq_14">
 	<g id="CIRCLE_23_">
-		<path class="st0" d="M244.5,279.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C246.7,284.2,244.5,282,244.5,279.3L244.5,279.3z">
+		<path class="st0 circ-peq" d="M244.5,279.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C246.7,284.2,244.5,282,244.5,279.3L244.5,279.3z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -212,7 +214,7 @@
 </g>
 <g id="Circulo_peq_13">
 	<g id="CIRCLE_24_">
-		<path class="st0" d="M234.1,260.1c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C236.3,265.1,234.1,262.9,234.1,260.1L234.1,260.1z">
+		<path class="st0 circ-peq" d="M234.1,260.1c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C236.3,265.1,234.1,262.9,234.1,260.1L234.1,260.1z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -220,7 +222,7 @@
 </g>
 <g id="Circulo_peq_20">
 	<g id="CIRCLE_25_">
-		<path class="st0" d="M290.3,310.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S290.3,313.2,290.3,310.4L290.3,310.4z">
+		<path class="st0 circ-peq" d="M290.3,310.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S290.3,313.2,290.3,310.4L290.3,310.4z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -228,7 +230,7 @@
 </g>
 <g id="Circulo_peq_19">
 	<g id="CIRCLE_26_">
-		<path class="st0" d="M290.2,288.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C292.4,293.3,290.2,291.1,290.2,288.3L290.2,288.3z">
+		<path class="st0 circ-peq" d="M290.2,288.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C292.4,293.3,290.2,291.1,290.2,288.3L290.2,288.3z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -236,7 +238,7 @@
 </g>
 <g id="Circulo_peq_18">
 	<g id="CIRCLE_27_">
-		<path class="st0" d="M290.2,267.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C292.4,272.2,290.2,270,290.2,267.2
+		<path class="st0 circ-peq" d="M290.2,267.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C292.4,272.2,290.2,270,290.2,267.2
 			L290.2,267.2z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
@@ -245,7 +247,7 @@
 </g>
 <g id="Circulo_peq_17">
 	<g id="CIRCLE_28_">
-		<path class="st0" d="M290.3,245.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S290.3,248.4,290.3,245.6L290.3,245.6z">
+		<path class="st0 circ-peq" d="M290.3,245.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S290.3,248.4,290.3,245.6L290.3,245.6z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -253,7 +255,7 @@
 </g>
 <g id="Circulo_peq_21">
 	<g id="CIRCLE_29_">
-		<path class="st0" d="M346.2,261.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S346.2,263.8,346.2,261.1L346.2,261.1z">
+		<path class="st0 circ-peq" d="M346.2,261.1c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S346.2,263.8,346.2,261.1L346.2,261.1z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -261,7 +263,7 @@
 </g>
 <g id="Circulo_peq_22">
 	<g id="CIRCLE_30_">
-		<path class="st0" d="M336,279.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S336,282.1,336,279.4L336,279.4z">
+		<path class="st0 circ-peq" d="M336,279.4c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S336,282.1,336,279.4L336,279.4z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -269,7 +271,7 @@
 </g>
 <g id="Circulo_peq_23">
 	<g id="CIRCLE_31_">
-		<path class="st0" d="M325.1,297.9c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S325.1,300.6,325.1,297.9L325.1,297.9z">
+		<path class="st0 circ-peq" d="M325.1,297.9c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S325.1,300.6,325.1,297.9L325.1,297.9z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -277,7 +279,7 @@
 </g>
 <g id="Circulo_peq_24">
 	<g id="CIRCLE_32_">
-		<path class="st0" d="M314.7,316.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S314.7,319.3,314.7,316.6L314.7,316.6z">
+		<path class="st0 circ-peq" d="M314.7,316.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S314.7,319.3,314.7,316.6L314.7,316.6z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -285,7 +287,7 @@
 </g>
 <g id="Circulo_peq_28">
 	<g id="CIRCLE_33_">
-		<path class="st0" d="M332.5,334.3c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S332.5,337.1,332.5,334.3L332.5,334.3z">
+		<path class="st0 circ-peq" d="M332.5,334.3c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S332.5,337.1,332.5,334.3L332.5,334.3z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -293,7 +295,7 @@
 </g>
 <g id="Circulo_peq_27">
 	<g id="CIRCLE_34_">
-		<path class="st0" d="M351.1,323.5c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S351.1,326.2,351.1,323.5L351.1,323.5z">
+		<path class="st0 circ-peq" d="M351.1,323.5c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S351.1,326.2,351.1,323.5L351.1,323.5z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -301,7 +303,7 @@
 </g>
 <g id="Circulo_peq_26">
 	<g id="CIRCLE_35_">
-		<path class="st0" d="M369.3,313.1c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S369.3,315.8,369.3,313.1L369.3,313.1z">
+		<path class="st0 circ-peq" d="M369.3,313.1c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S369.3,315.8,369.3,313.1L369.3,313.1z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -309,7 +311,7 @@
 </g>
 <g id="Circulo_peq_25">
 	<g id="CIRCLE_36_">
-		<path class="st0" d="M387.9,302.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S387.9,305.1,387.9,302.4L387.9,302.4z">
+		<path class="st0 circ-peq" d="M387.9,302.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S387.9,305.1,387.9,302.4L387.9,302.4z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -317,7 +319,7 @@
 </g>
 <g id="Circulo_peq_32">
 	<g id="CIRCLE_37_">
-		<path class="st0" d="M338.6,357.9c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S338.6,360.7,338.6,357.9L338.6,357.9z">
+		<path class="st0 circ-peq" d="M338.6,357.9c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S338.6,360.7,338.6,357.9L338.6,357.9z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -325,7 +327,7 @@
 </g>
 <g id="Circulo_peq_31">
 	<g id="CIRCLE_38_">
-		<path class="st0" d="M360.2,358.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S360.2,361.2,360.2,358.4L360.2,358.4z">
+		<path class="st0 circ-peq" d="M360.2,358.4c0-2.7,2.2-5,5-5s5,2.2,5,5c0,2.7-2.2,5-5,5S360.2,361.2,360.2,358.4L360.2,358.4z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -333,7 +335,7 @@
 </g>
 <g id="Circulo_peq_30">
 	<g id="CIRCLE_39_">
-		<path class="st0" d="M381.9,358.4c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C384.1,363.4,381.9,361.2,381.9,358.4
+		<path class="st0 circ-peq" d="M381.9,358.4c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5c0,2.7-2.2,5-5,5C384.1,363.4,381.9,361.2,381.9,358.4
 			L381.9,358.4z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
@@ -342,7 +344,7 @@
 </g>
 <g id="Circulo_peq_29">
 	<g id="CIRCLE_40_">
-		<path class="st0" d="M403.1,358.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S403.1,361.3,403.1,358.6L403.1,358.6z">
+		<path class="st0 circ-peq" d="M403.1,358.6c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S403.1,361.3,403.1,358.6L403.1,358.6z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -350,7 +352,7 @@
 </g>
 <g id="Circulo_peq_36">
 	<g id="CIRCLE_41_">
-		<path class="st0" d="M332,382.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C334.2,387.3,332,385,332,382.3L332,382.3z">
+		<path class="st0 circ-peq" d="M332,382.3c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C334.2,387.3,332,385,332,382.3L332,382.3z">
 			<set id="show" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; m_hide.end" dur=".2s" fill="freeze"/>
     		<set id="hide" attributeName="visibility" attributeType="CSS" to="hidden" begin="m_show.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -358,7 +360,7 @@
 </g>
 <g id="Circulo_peq_35">
 	<g id="CIRCLE_42_">
-		<path class="st0" d="M350.8,393.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C353,398.2,350.8,396,350.8,393.2L350.8,393.2z">
+		<path class="st0 circ-peq" d="M350.8,393.2c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C353,398.2,350.8,396,350.8,393.2L350.8,393.2z">
 			<set id="show2" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show.end" dur=".2s" fill="freeze"/>
     		<set id="hide2" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -366,7 +368,7 @@
 </g>
 <g id="Circulo_peq_34">
 	<g id="CIRCLE_43_">
-		<path class="st0" d="M369.4,403.8c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S369.4,406.5,369.4,403.8L369.4,403.8z">
+		<path class="st0 circ-peq" d="M369.4,403.8c0-2.7,2.2-5,5-5s5,2.2,5,5s-2.2,5-5,5S369.4,406.5,369.4,403.8L369.4,403.8z">
 			<set id="show3" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show2.end" dur=".2s" fill="freeze"/>
     		<set id="hide3" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide2.end" dur=".2s" fill="freeze"/>
 		</path>
@@ -374,15 +376,15 @@
 </g>
 <g id="Circulo_peq_33">
 	<g id="CIRCLE_44_">
-		<path class="st0" d="M388,414.7c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C390.2,419.6,388,417.4,388,414.7L388,414.7z">
+		<path class="st0 circ-peq" d="M388,414.7c0-2.7,2.2-5,5-5c2.7,0,5,2.2,5,5s-2.2,5-5,5C390.2,419.6,388,417.4,388,414.7L388,414.7z">
 			<set id="show4" attributeName="visibility" attributeType="CSS" to="visible" begin="0s; show3.end" dur=".2s" fill="freeze"/>
     		<set id="hide4" attributeName="visibility" attributeType="CSS" to="hidden" begin="hide3.end" dur=".2s" fill="freeze"/>
 		</path>
 	</g>
 </g>
-<g id="Mão">
+<g id="Mao">
 	<g id="LWPOLYLINE">
-		<path class="st0" d="M311.2,361.8c-0.9-8.7-8.7-15.1-17.4-14.2c-7.9,0.8-14,7.3-14.3,15.2v168.3l-11.7-10.8c0,0,0-46,0-46
+		<path class="st0 mao" d="M311.2,361.8c-0.9-8.7-8.7-15.1-17.4-14.2c-7.9,0.8-14,7.3-14.3,15.2v168.3l-11.7-10.8c0,0,0-46,0-46
 			c-1-8.6-8.8-14.7-17.4-13.7c-8.2,1-14.2,8.1-13.8,16.4c0,0,0,55.9,0,55.9c0.3,3,1.7,5.9,4,7.9l51.8,61.8c6.6,6.1,15,9.9,23.9,10.9
 			c22.4,1.6,44.8,2,67.2,1.1c7.9-0.9,14.3-6.8,15.7-14.6c4.3-17.1,7.1-34.5,8.4-52.1v-88.9c-0.6-8.7-8.1-15.3-16.8-14.7
 			c-6.9,0.4-12.6,5.3-14.3,11.9l-0.6,0.1l-0.4-0.1l-0.3-0.3l0.5-5.6c0.4-8.6-6.3-15.9-14.9-16.3c-6.6-0.3-12.7,3.6-15.2,9.7
