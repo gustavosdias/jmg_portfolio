@@ -3,11 +3,11 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  .inner-clock{fill:#425888;}
-  .outer-clock{fill:#85a9fd;}
-  .metal{fill: #d2d2d2;}
-  .shadow{fill: red;}
+	.st0{fill:none;stroke:#4169E1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .inner-clock{fill:#000000;}
+  .outer-clock{fill:#BEBEBE;}
+  .metal{fill: black;}
+  .shadow{fill: black;}
 </style>
 <g id="Circulo_2">
   <g id="CIRCLE_1_">
