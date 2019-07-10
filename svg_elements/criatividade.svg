@@ -5,6 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.fundo{fill: #425888;}
 	.cabeca{fill: #4F4F4F;}
 	.luz{fill: #B8860B;}
 	.engrenagem{fill: #cf8272;}
@@ -15,6 +16,14 @@
 	.eng-circulo{fill: white;}
 	.eng-circulo-cabeca{fill: #ffcd94;}
 </style>
+
+
+<g id="Circulo">
+	<g id="CIRCLE_3_">
+		<path class="st1 fundo" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
+			L0.1,396z"/>
+	</g>
+</g>
 
 <g id="Cabeça">
 	<g id="SPLINE_4_">
@@ -197,12 +206,7 @@
 	</g>
 
 </g>
-<g id="Circulo">
-	<g id="CIRCLE_3_">
-		<path class="st1" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
-			L0.1,396z"/>
-	</g>
-</g>
+
 
  <script type="text/javascript"><![CDATA[
     addRotateTransform('Engrenagem_1', 6, 1);

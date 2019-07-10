@@ -4,12 +4,19 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.fundo{fill: #425888;}
 	.screen{fill:#84a8f9;}
 	.screen-border{fill:black; stroke:white;}
 	.device-border{stroke:white;}
 	.screen-support{fill: #CDC5BF;}
 	.button{stroke:white;}
 </style>
+<g id="Circulo">
+	<g id="CIRCLE">
+		<path class="st0 fundo" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
+			L0.1,396z"/>
+	</g>
+</g>
 <g id="Monitor">
 	<g id="LWPOLYLINE">
 		<line class="st0" x1="499" y1="218.6" x2="108.3" y2="218.6"/>
@@ -60,12 +67,6 @@
 	</g>
 	<g id="LWPOLYLINE_10_">
 		<polyline class="st0 button" points="426.5,550.1 433.8,550.1 433.8,553 426.5,553 426.5,550.1 		"/>
-	</g>
-</g>
-<g id="Circulo">
-	<g id="CIRCLE">
-		<path class="st0" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
-			L0.1,396z"/>
 	</g>
 </g>
 </svg>
