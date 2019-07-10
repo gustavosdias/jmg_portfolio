@@ -236,4 +236,30 @@ p{
     font-weight: 1000;
 }
 
- 
+.servicos-wallpaper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+ .servicos-wallpaper-webdev{
+    background: url(../img/serv-webdev.jpg) no-repeat center center;
+    background-size: cover;
+ }
+
+ .servicos-wallpaper-mobidev{
+    background: url(../img/serv-mobidev.jpg) no-repeat center center;
+    background-size: cover;
+ }
+
+ .servicos-wallpaper-deskdev{
+    background: url(../img/serv-deskdev3.png) no-repeat center center;
+    background-size: cover;
+ }
+
+ .servicos-wallpaper-database{
+    background: url(../img/serv-database.png) no-repeat center center;
+    background-size: cover;
+ }

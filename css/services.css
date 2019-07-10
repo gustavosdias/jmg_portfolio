@@ -45,7 +45,7 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
   height: 100%;
   width: 100%;
   text-align: left;
-  background: whitesmoke;
+  background: rgba(0,0,0,0.7);
   box-sizing: border-box;
   transition: all 300ms ease-in-out;
   overflow: auto;
@@ -68,7 +68,7 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
   line-height: 24px;
   max-height: 40px;
   font-size: 13px;
-  color: black;
+  color: white;
   
 
 }
