@@ -14,9 +14,10 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
   padding: 0 20px 20px;
   height: 550px;
   text-align: center;
-  background: #F1F1F1;
+  background: #2d2d2d;
   border: 1px solid #fff;
   border-radius: 10px;
+  color: white
 
 }
 .wrapper .panel img {
@@ -26,16 +27,12 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
 }
 .wrapper .panel h3 {
   display: block;
-  margin-bottom: 15px;
-  color:  #013d47;
+  color:  #4c73c1;
   font-size: 18px;
-  font-weight: 700;
   text-align: center;
-  text-shadow: 0 1px 1px #013d47;;
 }
 .wrapper .panel p {
   font-size: 14px;
-  text-shadow: 0 1px 1px black;
 }
 .wrapper .panel .slide {
   position: absolute;
@@ -53,7 +50,6 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
 .wrapper .panel .slide h4 {
   margin-bottom: 20px;
   text-align: left;
-  text-shadow: none;
   font-size: 18px;
   font-weight: 600;
   color: #39cc62;
@@ -69,7 +65,7 @@ background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
   max-height: 40px;
   font-size: 13px;
   color: white;
-  
+  font-weight: bold;
 
 }
 .wrapper .panel .slide ul li:last-child {

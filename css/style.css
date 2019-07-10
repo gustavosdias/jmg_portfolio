@@ -187,6 +187,20 @@ footer{
     opacity: 0;
 }
 
+.wrapper-services-icon{
+    animation: rotateService 15s infinite linear;
+}
+
+@keyframes rotateService{
+  from{
+    transform: rotateY(720deg);
+  }
+  to {
+    transform: rotateY(0);
+  }
+}
+
+
 .wrapper-about-icon-rotated{
     opacity: 1;
     transform: rotateY(0);
