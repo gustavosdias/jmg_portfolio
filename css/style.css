@@ -29,7 +29,6 @@ html, body{
     border-radius: 0;
     border: none;
     transition: top 0.5s;
-    margin-bottom: 20px;
     transition: padding .3s linear;
 }
 
