@@ -22,7 +22,8 @@ html, body{
 }
 
 .navbar{
-    background-color: #445985;
+    background-color: #354669;
+    opacity: 0.9;
     padding: 1% 0;
     font-size: 1.2em;
     border-radius: 0;
