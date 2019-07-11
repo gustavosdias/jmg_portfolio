@@ -167,6 +167,11 @@ footer{
     margin-bottom: 25px;
 }
 
+#about{
+
+    background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
+    
+    }
 .about-icon{
     display: inline-block;
     max-width: 230px;
@@ -207,9 +212,6 @@ footer{
     transform: rotateY(0);
 }
 
-.about-icon{
-    width: 100%;
-}
 
 .skill-wrapper{
     text-align: center;
@@ -339,7 +341,14 @@ p{
     font-size: 24px;
   }
   
+  #services .icon img{
+    text-align: center;
+    width: 72px;
+    height: 72px;
+
+  }
   #services .box:hover .icon {
+    
     background: #fff;
     border: 2px solid #4e73bc;
   }
