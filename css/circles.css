@@ -1,11 +1,16 @@
 /* Import the Google Font 'Lato' */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+@font-face {
+  font-family: fonte;
+  src: url(/fonts/Abel-Regular.ttf);
+}
+
 /* Container styles */
 body {
   background-color: #fff;
   color: #333;
-  font-family: 'Lato';
+  font-family: fonte;
 }
 
 .container {
