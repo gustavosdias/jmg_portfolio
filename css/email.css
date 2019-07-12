@@ -1,7 +1,5 @@
-@font-face {
-	font-family: fonte;
-	src: url(../fonts/Abel-Regular.ttf);
- }
+@import url(https://fonts.googleapis.com/css?family=Abel:300,400,700);
+
 
 #feedback-page{
 	text-align:center;
@@ -32,7 +30,7 @@
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: fonte, Helvetica, Arial, sans-serif;
+	font-family: 'Abel', Helvetica, Arial, sans-serif;
   font-weight: 10;
 	font-size: 16px;
 	line-height: 15px;
