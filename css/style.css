@@ -23,7 +23,7 @@ html, body{
 
 .navbar{
     background-color: #354669;
-    opacity: 0.9;
+    opacity: 1;
     padding: 1% 0;
     font-size: 1.2em;
     border-radius: 0;
@@ -136,7 +136,7 @@ footer{
     color: white;
     background: url(../img/skills.png) no-repeat center center fixed;
     display: table;
-    height: 60%;
+    height: 35%;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -294,14 +294,15 @@ p{
   
   .section-header .section-description {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     color: #999;
   }
   
 #services {
     background: #fff;
     background-size: cover;
-    padding: 80px 0 60px 0;
+    padding: 0px 0 0px 0;
+
   }
   
   #services .box {
