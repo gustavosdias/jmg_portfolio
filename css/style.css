@@ -8,11 +8,6 @@ html, body{
     width: 100%;
 }
 
-@font-face {
-    font-family: fonte;
-    src: url(../fonts/Abel-Regular.ttf);
-   }
-
 #nav-phantom{
     visibility: hidden;
 }
@@ -136,7 +131,7 @@ footer{
     color: white;
     background: url(../img/skills.png) no-repeat center center fixed;
     display: table;
-    height: 35%;
+    height: 280px;
     position: relative;
     width: 100%;
     background-size: cover;

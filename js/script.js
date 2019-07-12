@@ -9,7 +9,7 @@ $("#top-info-button").click(function() {
 
     if(firstTimeScrolling){
         page.animate({
-            scrollTop: $("#about").offset().top - $("#nav").height() * 2},
+            scrollTop: $("#about").offset().top - $("#nav").height()},
             'slow');
     }else{
         page.animate({
@@ -36,7 +36,7 @@ $("#menu-about").click(function() {
     });
 
     page.animate({
-        scrollTop: $("#about h2").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#about h2").offset().top - $("#nav").height()},
             'slow');
 });
 
