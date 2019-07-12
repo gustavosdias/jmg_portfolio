@@ -186,29 +186,6 @@ footer{
     border-radius: 50%;
     width: 50%;
     margin: 0 auto;
-    transition: all 1s ease-in-out;
-    transform: rotateY(720deg);
-    border-color: 1px solid blue;
-    opacity: 0;
-}
-
-.wrapper-services-icon{
-    animation: rotateService 15s infinite linear;
-}
-
-@keyframes rotateService{
-  from{
-    transform: rotateY(720deg);
-  }
-  to {
-    transform: rotateY(0);
-  }
-}
-
-
-.wrapper-about-icon-rotated{
-    opacity: 1;
-    transform: rotateY(0);
 }
 
 

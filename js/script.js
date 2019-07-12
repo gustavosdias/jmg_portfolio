@@ -111,19 +111,6 @@ $(document).ready(function() {
             $('#nav-phantom').hide();
         }
 
-        var aboutIconTop = $('#about-icon-row').offset().top - 100,
-        aboutHeight = $('#about-icon-row').outerHeight(),
-        skillTop = $('#skills-row').offset().top - 300,
-        skillHeight = $('#skills-row').outerHeight(),
-        windowHeight = $(window).height(),
-        scroll = $(this).scrollTop();
-        if (scroll < skillTop && scroll > (aboutIconTop + aboutHeight - windowHeight)){
-            $('.wrapper-about-icon').addClass('wrapper-about-icon-rotated');
-        }else if(scroll > (skillTop + skillHeight - windowHeight)){
-            $('.progress-bar').addClass('progress-bar-active');
-            $('.progress-bar').removeClass('progress-bar-zeroed');
-            $('.progress-value').removeClass('progress-value-hidden');
-        }
     });
 
 
