@@ -309,7 +309,7 @@ p{
     margin-bottom: 50px;
     text-align: center;
     border: 1px solid #e6e6e6;
-    height: 200px;
+    height: 300px;
     position: relative;
     background: #fafafa;
   }
@@ -362,7 +362,7 @@ p{
   
   #services .title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     text-transform: uppercase;
   }
@@ -372,6 +372,10 @@ p{
   }
   
   #services .description {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
+    text-align: center;
+    text-shadow:1px 1px 2px rgb(190, 190, 190);
+    text-transform: capitalize;
+    
   }
