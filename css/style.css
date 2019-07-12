@@ -307,6 +307,7 @@ p{
     width: 72px;
     height: 72px;
     background: #4e73bc;
+    overflow: hidden;
   }
   
   #services .icon a {
