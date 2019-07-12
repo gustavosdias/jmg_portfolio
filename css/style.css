@@ -72,11 +72,10 @@ html, body{
     width: 100%;
 }
 
-footer{
+#contact{
     color: white;
     background: url(../img/contactback.png) no-repeat center center fixed;
-    display: table;
-    height: 60%;
+    height: 100%;
     position: relative;
     width: 100%;
     background-size: cover;
