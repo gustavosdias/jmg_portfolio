@@ -10,10 +10,10 @@
 	.luz{fill: #B8860B;}
 	.engrenagem{fill: #cf8272;}
 	.engrenagem2{fill: #cca869;}
-	.engrenagem3{fill: #67bdc3;}
+	.engrenagem3{fill: #FFFFFF;}
 	.socket-conec{fill: black;}
 	.socket{fill: #929292;}
-	.eng-circulo{fill: white;}
+	.eng-circulo{fill: #354669;}
 	.eng-circulo-cabeca{fill: #ffcd94;}
 </style>
 
