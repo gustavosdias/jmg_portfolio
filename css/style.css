@@ -260,7 +260,7 @@ p{
   }
   
   #services .box {
-    padding: 50px 20px;
+    padding: 70px 20px;
     margin-bottom: 50px;
     text-align: center;
     border: 1px solid #e6e6e6;
@@ -271,8 +271,8 @@ p{
   
   #services .icon {
     position: absolute;
-    top: -36px;
-    left: calc(50% - 36px);
+    top: -50px;
+    left: calc(50% - 50px);
     transition: 0.2s;
     border-radius: 50%;
     border: 6px solid #fff;
@@ -281,8 +281,8 @@ p{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 72px;
-    height: 72px;
+    width: 100px;
+    height: 100px;
     background: #4e73bc;
     overflow: hidden;
   }
