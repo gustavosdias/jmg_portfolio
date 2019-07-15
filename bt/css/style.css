@@ -1,4 +1,6 @@
 
+@import url(https://fonts.googleapis.com/css?family=Abel:300,400,700);
+
 body{
 
     --color-item-bg: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
@@ -20,7 +22,7 @@ position: relative;
 align-items: center;
 justify-items: center;
 margin: 0 auto;
-font-family: fonte;
+font-family: 'Abel';
 font-size: 1.5em;
 
 }
@@ -33,7 +35,7 @@ font-size: 1.5em;
 	transform: translate(-50%, -50%);
 	color:  black;
 	font-size:1.8em;
-	font-family: fonte;
+	font-family: 'Abel';
 	z-index: -1;
 
 }
