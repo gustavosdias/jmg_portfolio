@@ -10,6 +10,7 @@
   transition-duration: .4s;
   transition-timing-function: ease-in-out;
   position: relative;
+  cursor: pointer;
   
 }
 .add-btn:hover {

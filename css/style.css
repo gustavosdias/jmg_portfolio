@@ -64,7 +64,7 @@ html, body{
 
 #contact{
     color: white;
-    background: url(../img/contactback.png) no-repeat center center fixed;
+    background: url(../img/contactback_res.png) no-repeat center center fixed;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -118,7 +118,7 @@ html, body{
 
 #skills{
     color: white;
-    background: url(../img/skills.png) no-repeat center center fixed;
+    background: url(../img/skills_res.png) no-repeat center center fixed;
     display: table;
     position: relative;
     width: 100%;
@@ -342,7 +342,7 @@ p{
     top: 0;
     z-index: 1000;
     width: 100%;
-    animation: showNavbar 1s forwards;
+    animation: showNavbar 0.5s forwards;
 }
 
 @keyframes showNavbar{
@@ -351,4 +351,8 @@ p{
         }to{
             transform:translate(0, 0);
         } 
+}
+
+#dummyframe{
+    visibility: hidden;
 }
