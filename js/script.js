@@ -85,8 +85,6 @@ $("#menu-services").click(function() {
             'slow');
 });
 
-
-
 $(document).ready(function() {
 
     if ($(window).scrollTop() > $('#home').height()) {
