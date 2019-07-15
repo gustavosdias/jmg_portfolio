@@ -9,7 +9,7 @@ $("#top-info-button").click(function() {
 
     if(firstTimeScrolling){
         page.animate({
-            scrollTop: $("#about").offset().top - $("#nav").height()},
+            scrollTop: $("#about").offset().top - $("#nav").height()  * 1.5},
             'slow');
     }else{
         page.animate({
@@ -36,7 +36,7 @@ $("#menu-about").click(function() {
     });
 
     page.animate({
-        scrollTop: $("#about h2").offset().top - $("#nav").height()},
+        scrollTop: $("#about h2").offset().top - $("#nav").height() * 1.5},
             'slow');
 });
 
@@ -47,7 +47,7 @@ $("#menu-skills").click(function() {
     });
 
    page.animate({
-        scrollTop: $("#skills h2").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#skills h2").offset().top - $("#nav").height() * 1.5},
             'slow');
 });
 
@@ -58,7 +58,7 @@ $("#menu-portfolio").click(function() {
     });
 
    page.animate({
-        scrollTop: $("#portfolio h2").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#portfolio h2").offset().top - $("#nav").height() * 1.5},
             'slow');
 });
 
@@ -70,7 +70,7 @@ $("#menu-contact").click(function() {
     });
 
   page.animate({
-        scrollTop: $("#form-div").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#form-div").offset().top - $("#nav").height() * 1.5},
             'slow');
 });
 
@@ -81,41 +81,16 @@ $("#menu-services").click(function() {
     });
 
   page.animate({
-        scrollTop: $("#services h2").offset().top - $("#nav").height() * 2},
+        scrollTop: $("#services h2").offset().top - $("#nav").height() * 1.5},
             'slow');
 });
 
 $(document).ready(function() {
 
-    if ($(window).scrollTop() > $('#home').height()) {
-        $('#nav').addClass('navbar-fixed');
-        $('#nav-phantom').show();
-    }
-    else {
-        $('#nav').removeClass('navbar-fixed');
-        $('#nav-phantom').hide();
-    }
-
-
-    $(window).scroll(function () {
-
-        //Sticky navbar
-        if ($(window).scrollTop() > $('#home').height()) {
-            $('#nav').addClass('navbar-fixed');
-            $('#nav-phantom').show();
-        }
-        else {
-            $('#nav').removeClass('navbar-fixed');
-            $('#nav-phantom').hide();
-        }
-
-    });
-
-
     // Custom function which toggles between sticky class (is-sticky)
     var stickyToggle = function (sticky, stickyWrapper, scrollElement) {
         var stickyHeight = sticky.outerHeight();
-        var stickyTop = stickyWrapper.offset().top;
+        var stickyTop = stickyWrapper.offset().top + 50;
         if (scrollElement.scrollTop() >= stickyTop) {
             stickyWrapper.height(stickyHeight);
             sticky.addClass("is-sticky");
@@ -125,4 +100,22 @@ $(document).ready(function() {
             stickyWrapper.height('auto');
         }
     };
+
+    // Find all data-toggle="sticky-onscroll" elements
+    $('[data-toggle="sticky-onscroll"]').each(function () {
+        var sticky = $(this);
+        var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
+        sticky.before(stickyWrapper);
+        sticky.addClass('sticky');
+
+        // Scroll & resize events
+        $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function () {
+            stickyToggle(sticky, stickyWrapper, $(this));
+        });
+
+        // On page load
+        stickyToggle(sticky, stickyWrapper, $(window));
+    });
+
+
 });

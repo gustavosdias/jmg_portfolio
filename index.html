@@ -4,10 +4,10 @@
 	<title>JMG Solutions</title>
 	<meta charset="UTF-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/star.css" rel="stylesheet"/>
 	<link href="css/circles.css" rel="stylesheet"/>
@@ -36,23 +36,20 @@
 		</div>
 	</div>
 
-
-	<nav id="nav-phantom" class="navbar navbar-expand-lg navbar-light" role="navigation navbar-default"></nav>
-	<nav id="nav" class="navbar navbar-expand-lg navbar-light navbar-default">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbar-collapse-main">
-		<ul class="nav navbar-nav navbar-center">
-			<li><button id="menu-home" class="btn btn-default btn-lg">INÍCIO</button></li>
-			<li><button id="menu-about" class="btn btn-default btn-lg">QUEM SOMOS</button></li>
-			<li><button id="menu-skills" class="btn btn-default btn-lg">HABILIDADES</button></li>
-			<li><button id="menu-services" class="btn btn-default btn-lg">SERVIÇOS</button></li>
-			<li><button id="menu-contact" class="btn btn-default btn-lg">CONTATO</button></li>
-		</ul>
-	</div>
-</nav>
+	<nav id="nav" class="navbar navbar-default navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			    <ul class="navbar-nav mr-auto">
+					<li><button id="menu-home" class="btn btn-default btn-lg">INÍCIO</button></li>
+					<li><button id="menu-about" class="btn btn-default btn-lg">QUEM SOMOS</button></li>
+					<li><button id="menu-skills" class="btn btn-default btn-lg">HABILIDADES</button></li>
+					<li><button id="menu-services" class="btn btn-default btn-lg">SERVIÇOS</button></li>
+					<li><button id="menu-contact" class="btn btn-default btn-lg">CONTATO</button></li>
+				</ul>
+            </div>
+    </nav>
 
 <!-- About -->
 <div id="about" class="padding">
@@ -221,8 +218,6 @@
 <script src="bt/js/particles.js"></script>
 <script src="bt/js/bt.js"></script>
 <script src="wow/wow.min.js"></script>
-<script src="jquery/jquery.min.js"></script>
-<script src="jquery/jquery-migrate.min.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 </html>
