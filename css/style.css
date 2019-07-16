@@ -162,6 +162,7 @@ html, body{
     margin: 0 auto;
     overflow: hidden;
 
+
 }
 
 .topic{
@@ -178,7 +179,7 @@ html, body{
     
     height: 185px;
     border-radius: 50%;
-    width: 50%;
+   
     margin: 0 auto;
 }
 
