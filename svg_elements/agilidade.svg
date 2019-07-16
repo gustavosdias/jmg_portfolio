@@ -8,7 +8,7 @@
   <feGaussianBlur in="SourceAlpha" stdDeviation="8"/> <!-- stdDeviation is how much to blur -->
   <feOffset dx="-5" dy="-5" result="offsetblur"/> <!-- how much to offset -->
   <feComponentTransfer>
-    <feFuncA type="discrete" slope="0.25"/> <!-- slope is the opacity of the shadow -->
+    <feFuncA type="discrete" slope="0.5"/> <!-- slope is the opacity of the shadow -->
   </feComponentTransfer>
   <feMerge> 
     <feMergeNode/> <!-- this contains the offset blurred image -->
@@ -19,32 +19,16 @@
 
 <style type="text/css">
 	.st0{filter:url(#dropshadow);fill:transparent;stroke:#4169E1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  .inner-clock{stroke: black; fill:transparent; stroke-width: 15;}
+  .inner-clock{stroke: rgb(80,115,183); fill:transparent; stroke-width: 15;}
   .outer-clock{fill:transparent;}
-  .metal{fill: black;}
-  .shadow{fill: black; }
+  .metal{fill: rgb(80,115,183);}
+  .shadow{fill: rgb(80,115,183); }
 
 }
 </style>
 
-<g id="Circulo_1">
-  <g id="CIRCLE_2_">
-    <path class="st0 fundo" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
-      L0.1,396z"/>
-  </g>
-</g>
-<g id="Circulo_2">
-  <g id="CIRCLE_1_">
-    <path class="st0 inner-clock" d="M174.9,413.6c0-85,68.9-154,154-154s154,68.9,154,154s-68.9,154-154,154S174.9,498.6,174.9,413.6L174.9,413.6
-      z"/>
-  </g>
-</g>
-<g id="Circulo_3">
-	<g id="CIRCLE">
-		<path class="st0 outer-clock" d="M195.2,413.6c0-73.8,59.8-133.6,133.6-133.6s133.6,59.8,133.6,133.6s-59.8,133.6-133.6,133.6
-			S195.2,487.4,195.2,413.6L195.2,413.6z"/>
-	</g>
-</g>
+
+
 <g id="Reta_2">
 	<g id="LWPOLYLINE">
 		<path class="st0 shadow" d="M175,407.3H62.8c-4,1.2-6.2,5.4-5,9.4c0.7,2.4,2.6,4.3,5,5h112.3C174.9,416.9,174.8,412.1,175,407.3z"/>
@@ -94,12 +78,31 @@
 			c-4.6-24.8,11.7-48.6,36.5-53.2C327,152.3,333.2,152.5,339.2,153.8z"/>
 	</g>
 </g>
-<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="#08298A" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
-<line class="iconic-clock-minute-hand" id="iconic-anim-clock-minute-hand" fill="none" stroke="#08298A" stroke-width="12" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="300"/>
+<g id="Circulo_1">
+  <g id="CIRCLE_2_">
+    <path class="st0 fundo" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
+      L0.1,396z"/>
+  </g>
+</g>
+<g id="Circulo_2">
+  <g id="CIRCLE_1_">
+    <path class="st0 inner-clock" d="M174.9,413.6c0-85,68.9-154,154-154s154,68.9,154,154s-68.9,154-154,154S174.9,498.6,174.9,413.6L174.9,413.6
+      z"/>
+  </g>
+</g>
+<g id="Circulo_3">
+	<g id="CIRCLE">
+		<path class="st0 outer-clock" d="M195.2,413.6c0-73.8,59.8-133.6,133.6-133.6s133.6,59.8,133.6,133.6s-59.8,133.6-133.6,133.6
+			S195.2,487.4,195.2,413.6L195.2,413.6z"/>
+	</g>
+</g>
+
+<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="rgb(55,55,55)" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
+<line class="iconic-clock-minute-hand" id="iconic-anim-clock-minute-hand" fill="none" stroke="rgb(55,55,55)" stroke-width="12" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="300"/>
 <circle class="iconic-clock-axis" cx="330" cy="415" r="9"/>
 <g class="iconic-clock-second-hand" id="iconic-anim-clock-second-hand">
     <line class="iconic-clock-second-hand-arm" fill="none" stroke="black" stroke-width="4" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="290"/>
-    <circle class="iconic-clock-second-hand-axis" fill="#08298A" cx="330" cy="415" r="4.5"/>
+    <circle class="iconic-clock-second-hand-axis" fill="rgb(55,55,55)" cx="330" cy="415" r="4.5"/>
 </g>
     <defs>
     <animateTransform
