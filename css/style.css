@@ -18,12 +18,12 @@ html, body{
 
 .navbar{
     background-color: #354669;
-    opacity: 1;
+    opacity: 0.9;
     padding: 1% 0;
     font-size: 1.2em;
     border-radius: 0;
     border: none;
-    min-height: 50px;
+    
 }
 
 .navbar-default li button{
@@ -38,7 +38,7 @@ html, body{
     background-color: #D5D5D5;
     outline: none;
     box-shadow: none;
-
+ 
 }
 
 .navbar-default .navbar-nav li button:focus{
@@ -112,6 +112,7 @@ html, body{
 }
 
 .topic{
+    
     text-align: center;
     margin-bottom: 1em;
 }
@@ -125,7 +126,8 @@ html, body{
     position: relative;
     width: 100%;
     background-size: cover;
-    padding: 60px;
+    padding: 70px;
+    min-height: 100%;
 }
 
 
@@ -144,8 +146,13 @@ html, body{
 #about{
 
     background-image: radial-gradient(  white 0, rgb(207, 207, 207) 100%);
-    padding: 60px;
+    padding: 70px;
+    min-height:100%;
+ 
+
     }
+
+
 .about-icon{
     display: inline-block;
     max-width: 230px;
@@ -154,9 +161,21 @@ html, body{
     height: 200px;
     margin: 0 auto;
     overflow: hidden;
+
 }
 
+.topic{
+    padding: 30px;
+
+}
+.row{
+
+   padding: 40px;
+}
+
+
 .wrapper-about-icon{
+    
     height: 185px;
     border-radius: 50%;
     width: 50%;
@@ -192,29 +211,34 @@ p{
     color: #111;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
-    margin-bottom: 5px;
+    padding: 30px 0px 0px 0px;
+ 
   }
   
   .section-header .section-description {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+  
     color: #999;
   }
   
 #services {
     background: #fff;
     background-size: cover;
-    padding: 60px;
+    padding: 70px;
+    min-height: 100%;
 
   }
   
   #services .box {
     padding: 70px 20px;
+
     margin-bottom: 50px;
+
     text-align: center;
     border: 1px solid #e6e6e6;
-    height: 300px;
+    height: 280px;
+    
     position: relative;
     background: #fafafa;
   }
@@ -235,6 +259,7 @@ p{
     height: 100px;
     background: #4e73bc;
     overflow: hidden;
+
   }
   
   #services .icon a {
@@ -268,8 +293,9 @@ p{
   
   #services .title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 15px;
+
     text-transform: uppercase;
   }
   
@@ -278,7 +304,7 @@ p{
   }
   
   #services .description {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     text-align: center;
     text-shadow:1px 1px 2px rgb(190, 190, 190);
