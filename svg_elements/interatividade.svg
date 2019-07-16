@@ -4,7 +4,7 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.fundo{fill:#E6E6E6 ;}
+	.fundo{fill: ;}
 	.mao{fill: BLACK;}
 	.circ-peq{fill:#0431B4;}
 	.circ-medio{fill:#08298A;}
