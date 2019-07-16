@@ -3,12 +3,12 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#4169E1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#4169E1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
   .inner-clock{fill:#000000;}
-  .outer-clock{fill:#BEBEBE;}
+  .outer-clock{fill:white;}
   .metal{fill: black;}
   .shadow{fill: black;}
-  .fundo{fill: #425888;}
+
 </style>
 <g id="Circulo_1">
   <g id="CIRCLE_2_">
@@ -77,8 +77,8 @@
 			c-4.6-24.8,11.7-48.6,36.5-53.2C327,152.3,333.2,152.5,339.2,153.8z"/>
 	</g>
 </g>
-<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
-<line class="iconic-clock-minute-hand" id="iconic-anim-clock-minute-hand" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="300"/>
+<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="#0040FF" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
+<line class="iconic-clock-minute-hand" id="iconic-anim-clock-minute-hand" fill="none" stroke="#08298A" stroke-width="12" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="300"/>
 <circle class="iconic-clock-axis" cx="330" cy="415" r="9"/>
 <g class="iconic-clock-second-hand" id="iconic-anim-clock-second-hand">
     <line class="iconic-clock-second-hand-arm" fill="none" stroke="#D53A1F" stroke-width="4" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="290"/>
