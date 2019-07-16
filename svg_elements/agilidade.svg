@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#4169E1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  .inner-clock{fill:#000000;}
-  .outer-clock{fill:white;}
-  .metal{fill: black;}
-  .shadow{fill: black;}
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792; " xml:space="preserve">
 
+  <defs>
+  <filter id="dropshadow" x="-30%" y="-30%" height="*svg-viewbox-height*" width="*svg-viewbox-width*" filterUnits="userSpaceOnUse">
+  <feGaussianBlur in="SourceAlpha" stdDeviation="8"/> <!-- stdDeviation is how much to blur -->
+  <feOffset dx="-5" dy="-5" result="offsetblur"/> <!-- how much to offset -->
+  <feComponentTransfer>
+    <feFuncA type="discrete" slope="0.25"/> <!-- slope is the opacity of the shadow -->
+  </feComponentTransfer>
+  <feMerge> 
+    <feMergeNode/> <!-- this contains the offset blurred image -->
+    <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
+  </feMerge>
+</filter>
+  </defs>
+
+<style type="text/css">
+	.st0{filter:url(#dropshadow);fill:transparent;stroke:#4169E1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .inner-clock{stroke: black; fill:transparent; stroke-width: 15;}
+  .outer-clock{fill:transparent;}
+  .metal{fill: black;}
+  .shadow{fill: black; }
+
+}
 </style>
+
 <g id="Circulo_1">
   <g id="CIRCLE_2_">
     <path class="st0 fundo" d="M0.1,396C0.1,227.1,137.1,90.1,306,90.1S611.9,227.1,611.9,396S474.9,701.9,306,701.9S0.1,564.9,0.1,396
@@ -42,7 +59,7 @@
 <g id="Reta_4">
 	<g id="LWPOLYLINE_2_">
 		<path class="st0 shadow" d="M43,407.3H27.7c-4,0.4-6.9,4-6.4,8c0.4,3.5,3.1,6.2,6.6,6.4c0,0,15.7,0,15.7,0c3.9-1,6.4-4.9,5.4-8.9
-			C48.3,410,45.9,407.8,43,407.3z"/>
+			C48.3,410,45.9,407.8,43,407.3z" />
 	</g>
 </g>
 <g id="Reta_3">
@@ -77,12 +94,12 @@
 			c-4.6-24.8,11.7-48.6,36.5-53.2C327,152.3,333.2,152.5,339.2,153.8z"/>
 	</g>
 </g>
-<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="#0040FF" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
+<line class="iconic-clock-hour-hand" id="foo" fill="none" stroke="#08298A" stroke-width="18" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="350"/>
 <line class="iconic-clock-minute-hand" id="iconic-anim-clock-minute-hand" fill="none" stroke="#08298A" stroke-width="12" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="300"/>
 <circle class="iconic-clock-axis" cx="330" cy="415" r="9"/>
 <g class="iconic-clock-second-hand" id="iconic-anim-clock-second-hand">
-    <line class="iconic-clock-second-hand-arm" fill="none" stroke="#D53A1F" stroke-width="4" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="290"/>
-    <circle class="iconic-clock-second-hand-axis" fill="#D53A1F" cx="330" cy="415" r="4.5"/>
+    <line class="iconic-clock-second-hand-arm" fill="none" stroke="black" stroke-width="4" stroke-miterlimit="10" x1="330" y1="415" x2="330" y2="290"/>
+    <circle class="iconic-clock-second-hand-axis" fill="#08298A" cx="330" cy="415" r="4.5"/>
 </g>
     <defs>
     <animateTransform
