@@ -224,24 +224,34 @@ p{
 #services {
     background: #fff;
     background-size: cover;
-    padding: 70px;
+    padding: 70px 0px 0px 0px;
     min-height: 100%;
 
   }
+
   
   #services .box {
-    padding: 70px 20px;
 
+    padding: 70px 20px 10px 20px;
+    
     margin-bottom: 50px;
-
     text-align: center;
     border: 1px solid #e6e6e6;
-    height: 280px;
-    
+    height: 85%;
+    width:auto;
+
     position: relative;
     background: #fafafa;
+   
   }
-  
+
+  #services .description {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-shadow:1px 1px 2px rgb(190, 190, 190);
+  }
+
   #services .icon {
     position: absolute;
     top: -50px;
@@ -294,7 +304,6 @@ p{
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 15px;
-
     text-transform: uppercase;
   }
   
@@ -302,12 +311,7 @@ p{
     color: #111;
   }
   
-  #services .description {
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    text-shadow:1px 1px 2px rgb(190, 190, 190);
-  }
+
 
 /*sticky header position*/
 .sticky.is-sticky {
