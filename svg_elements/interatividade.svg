@@ -18,9 +18,9 @@
 <style type="text/css">
 	.st0{filter:url(#dropshadow);fill:none;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.fundo{fill: ;}
-	.mao{fill: rgb(80,115,183);}
+	.mao{fill: #ffdbb0;}
 	.circ-peq{fill:rgb(55,55,55);}
-	.circ-medio{fill:rgb(55,55,55);}
+	.circ-medio{fill:#5073b7;}
 
 
 </style>

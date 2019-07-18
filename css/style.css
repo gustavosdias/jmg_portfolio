@@ -119,9 +119,7 @@ html, body{
 
 #skills{
     color: white;
-
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url(../img/skills_res.png);
+    background: url(../img/skills_res.png) no-repeat center center fixed;
     display: table;
     position: relative;
     width: 100%;
