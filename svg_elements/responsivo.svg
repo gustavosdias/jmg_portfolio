@@ -19,7 +19,7 @@
 <style type="text/css">
 	.st0{filter:url(#dropshadow);fill:none;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.fundo{fill:;}
-	.screen{fill:WHITE; border: rgb(55,55,55)}
+	.screen{fill:#5073b7; border: rgb(55,55,55)}
 	.screen-border{fill:rgb(55,55,55); stroke:white;}
 	.device-border{stroke:white;}
 	.screen-support{fill: #D8D8D8;}
