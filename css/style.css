@@ -87,6 +87,7 @@ html, body{
     max-width: 200px;
 }
 
+
 @media (max-width: 768px) {
     .landing-text h1{
         font-size: 300%;
@@ -117,16 +118,7 @@ html, body{
     margin-bottom: 1em;
 }
 
-#skills{
-    color: white;
-    background: url(../img/skills_res.png) no-repeat center center fixed;
-    display: table;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    padding: 70px;
-    min-height: 100%;
-}
+
 
 
 .profile-pic{
