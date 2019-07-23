@@ -45,7 +45,10 @@ $recaptcha = $_POST["g-recaptcha-response"];
 		} 
 		else
 		{
-			echo 'alert("Validação não concluída, tente novamente.")';
+ 				echo '<script language="javascript">';
+				echo 'alert("Validação não concluída, tente novamente.")';
+				echo '</script>';
+			
 	              	exit;
 		}
 	}
