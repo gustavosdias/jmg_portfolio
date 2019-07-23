@@ -64,10 +64,10 @@
 }
 
 .skills-icon{
+    filter:  drop-shadow(0px 0px 5px gray);
 
-        filter: drop-shadow(0px 0px 5px gray);
-      
 }
+
 
 
 
