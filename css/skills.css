@@ -17,21 +17,24 @@
         transform: translateX(0);
    }
     100% {
-        transform: translateX(calc(-250px * 14));
+        transform: translateX(calc(-250px * 16));
    }
 }
 .slider {
-    background: #1d1d1d;
-    box-shadow: 0 10px 20px -5px rgba(255, 255, 255, .25);
+    background-image: linear-gradient(to right, transparent 0%, black 50%, transparent 100%);
+    background-size: 100% 100%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
     height: 100px;
     margin: auto;
     overflow: hidden;
     position: relative;
     width: 100%;
+    padding: 12.5px;
 }
 .slider::before, .slider::after {
     visibility: hidden;
-    background: linear-gradient(to right, transparent,  transparent);
+  
     content: "";
     height: 100px;
     position: absolute;
@@ -50,11 +53,20 @@
 .slider .slide-track {
     animation: scroll 80s linear infinite;
     display: flex;
-    width: calc(250px * 28);
+    width: calc(250px * 32);
 }
 .slider .slide {
-    height: 100px;
+    height: auto;
     width: 250px;
+
 }
+
+.skills-icon{
+
+        filter: drop-shadow(0px 0px 5px gray);
+      
+}
+
+
 
   
