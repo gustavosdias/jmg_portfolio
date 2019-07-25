@@ -1,7 +1,7 @@
 #skills{
     color: black;
-   /* background: url(../img/skills_res.png) no-repeat center center fixed; */
-    background:     #F0F0F0;
+    background: url(../img/background-site.jpg) no-repeat center center; 
+  
 
     width: auto;
     background-size: cover;

@@ -10,7 +10,13 @@ html, body{
 
 h5{
 
-    color:#0d1a7a;
+    color:#1a2683;;
+}
+
+h2{
+
+    color:#1a2683;
+    text-align: center;
 }
 #nav-phantom{
     visibility: hidden;
@@ -328,15 +334,7 @@ p{
   #services .box:hover .icon a {
     color: #4e73bc;
   }
-  
-  #services .title {
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  
-  }
-  
+
   #services .title a {
      color: #0d1a7a;;
   }
