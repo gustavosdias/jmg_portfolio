@@ -177,6 +177,12 @@ h5{
 
 }
 
+#about .box:hover{
+
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 #about .wrapper-about-icon{
 
     padding: 0px;
