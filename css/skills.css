@@ -3,7 +3,7 @@
    /* background: url(../img/skills_res.png) no-repeat center center fixed; */
     background:     #F0F0F0;
 
-    width: 100%;
+    width: auto;
     background-size: cover;
 
     min-height: 100%;
@@ -11,6 +11,18 @@
 
       
 }
+
+.skills-row{
+
+    padding:70px 0px;
+
+}
+
+.skill-lead{
+
+    padding:20px;
+}
+
 
 @keyframes scroll {
     0% {
@@ -25,13 +37,13 @@
     background-size: 100% 100%;
     background-position: 50% 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 250px;
     margin: auto;
     overflow: hidden;
     position: relative;
     width: calc(100% + 110px);
     margin-left: -55px;
-    padding: 37.5px;
+    padding: 62.5px;
     
 }
 .slider::before, .slider::after {
@@ -68,11 +80,7 @@
 
 }
 
-.skills-icon:hover{
 
-    transform: scale(1.1);
-    transition: 0.5s;
-}
 
 
 
