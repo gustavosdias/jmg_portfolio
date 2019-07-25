@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Abel:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Varela:300,400,700);
 
 
 #feedback-page{
@@ -29,7 +29,7 @@
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: 'Abel', Helvetica, Arial, sans-serif;
+	font-family: 'Varela', Helvetica, Arial, sans-serif;
   font-weight: 10;
 	font-size: 16px;
 	line-height: 15px;
