@@ -1,7 +1,7 @@
 #skills{
-    color: white;
+    color: black;
    /* background: url(../img/skills_res.png) no-repeat center center fixed; */
-   
+    background:     #F0F0F0;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -21,7 +21,7 @@
    }
 }
 .slider {
-    background-image: linear-gradient(to right, transparent 0%, black 50%, transparent 100%);
+    background-image: linear-gradient(to right, transparent 0%, white 50%, transparent 100%);
     background-size: 100% 100%;
     background-position: 50% 100%;
     background-repeat: no-repeat;

@@ -8,6 +8,10 @@ html, body{
     width: 100%;
 }
 
+h5{
+
+    color:#0d1a7a;
+}
 #nav-phantom{
     visibility: hidden;
 }
@@ -140,10 +144,9 @@ html, body{
 
 #about{
     background:white;
-    
-    padding: 70px;
+    padding: 70px 0px ;
     min-height:100%;
- 
+
 
     }
 
