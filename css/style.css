@@ -168,13 +168,12 @@ h5{
     padding: 10px 20px;
     margin-bottom: 50px;
     text-align: center;
-    border: 1px solid #4e73bc;
-    border-radius: 15px;
+
     height: 85%;
     width:auto;
     position: relative;
     background: white;
-    filter:  drop-shadow(1px 1px 5px rgb(210, 210, 210));
+
 
 }
 
