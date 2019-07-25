@@ -10,12 +10,12 @@ html, body{
 
 h5{
 
-    color:#1a2683;;
+    color: #5772ca;
 }
 
 h2{
 
-    color:#1a2683;
+    color:#5772ca;
     text-align: center;
 }
 #nav-phantom{
@@ -174,7 +174,6 @@ h2{
     padding: 10px 20px;
     margin-bottom: 50px;
     text-align: center;
-
     height: 85%;
     width:auto;
     position: relative;
@@ -336,7 +335,7 @@ p{
   }
 
   #services .title a {
-     color: #0d1a7a;;
+     color: #5772ca;
   }
   
 
