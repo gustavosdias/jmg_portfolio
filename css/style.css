@@ -202,9 +202,19 @@ h2{
     color: #5772ca;
 }
 
-#about .description {
-   color:black;
+#about .texto {
 
+    font-size: 1.1em;
+    text-align: center;
+    text-shadow:1px 1px 2px rgb(190, 190, 190);
+    margin: 0 auto;
+    padding: 8px;
+  }
+
+  
+#about .description {
+
+  font-size: 0.9em;
   text-align: center;
   text-shadow:1px 1px 2px rgb(190, 190, 190);
   margin: 0 auto;
@@ -361,7 +371,7 @@ p{
 
   #services .title {
      color: #5772ca;
-     font-size: 20px;
+     font-size: 1em;
   }
   
 
