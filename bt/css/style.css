@@ -18,15 +18,34 @@ body{
 }
 
 .btdiv{
+
 position: relative;
 align-items: center;
 justify-items: center;
 margin: 0 auto;
-
 font-size: 1.5em;
+
+
 
 }
 
+.btsub {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: relative;
+	background: #4e73bc;
+	color: whitesmoke;
+	border: 0;
+    border-radius: 5px;
+	margin: 0;
+	padding: 1rem 2rem;
+	
+	cursor: pointer;
+}
 .pdiv{
 
 	position: absolute;
