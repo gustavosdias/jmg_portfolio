@@ -154,33 +154,61 @@ h2{
     padding: 70px 0px ;
     min-height:100%;
     align-content: center;
+    font-size: 100%;
 
     }
 
+#about .icon {
 
-.about-icon{
-    display: inline-block;
-    max-width: 230px;
-    max-height: 300px;
-    width: auto;
-    height: 200px;
-    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     overflow: hidden;
-    
+    margin: 0 auto;
+    }
 
+
+#about .icon img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
 
 }
+
 #about .box{
 
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin-bottom: 50px;
     text-align: center;
     height: 85%;
-    width:auto;
+    width: auto;
     position: relative;
     background: white;
     filter:  drop-shadow(3px 3px 3px gray);
 
+}
+
+#about .title {
+
+    
+    font-size: 125%;
+    margin: 0 auto;
+    color: #5772ca;
+}
+
+#about .description {
+   color:black;
+
+  text-align: center;
+  text-shadow:1px 1px 2px rgb(190, 190, 190);
+  margin: 0 auto;
+  padding: 8px;
 }
 
 #about .box:hover{
@@ -189,10 +217,6 @@ h2{
     transition: 0.5s;
 }
 
-#about .wrapper-about-icon{
-
-    padding: 0px;
-}
 
 #about .row{
 
