@@ -5,26 +5,16 @@
 	text-align:center;
 }
 
-#form-main{
-	width:100%;
-	float:left;
-	padding-top:0px;
-}
 
 #form-div {
 	background-color:rgba(255,255,255,0.5);
-	padding-left: 45px;
-	padding-right: 45px;
-	padding-top: 45px;
-	padding-bottom: 20px;
-	width: 650px;
-	left: 50%;
-	margin-top: 30px;
-	margin-left: -260px;
-	margin-bottom: 30px;
+    padding:  45px;
+	width:100%;
+	max-width: 800px;
 
+	align-content: center;
 	margin: 0 auto;
-	transform: scale(0.8,0.8);
+	
 }
 
 .feedback-input {
@@ -149,13 +139,4 @@ textarea {
   background-color:white;
 }
 
-@media only screen and (max-width: 580px) {
-	#form-div{
-		width: 100%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
 
-
-}
