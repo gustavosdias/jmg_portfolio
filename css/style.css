@@ -14,7 +14,8 @@ h5{
 }
 
 h2{
-
+    font-weight: bold;
+    font-size: 42px;
     color:#5772ca;
     text-align: center;
 }
