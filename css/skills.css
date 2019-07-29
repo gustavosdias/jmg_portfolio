@@ -1,17 +1,18 @@
 #skills{
     color: black;
     background: url(../img/background-site.jpg) no-repeat center center; 
-  
-
     width: auto;
     background-size: cover;
-
     min-height: 100%;
     filter:  drop-shadow(3px 3px 3px gray);
-
+    text-align: center;
 
 }
 
+#skills .description{
+
+    padding: 10px 10px;
+}
 .skills-row{
 
     padding:70px 0px;
@@ -23,7 +24,12 @@
     padding:20px;
 }
 
+.skill-blue-text{
 
+    color:#4e73bc;
+
+
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
