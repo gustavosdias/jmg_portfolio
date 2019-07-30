@@ -16,7 +16,13 @@
     text-align: center;
 }
 
-
+#skills .topic{
+    color: #4e73bc;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 30px;
+}
 
 
 .skills-row{
