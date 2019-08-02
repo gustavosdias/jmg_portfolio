@@ -169,8 +169,8 @@ h2{
 
 #about{
     
-    background: url(../img/testeback.jpg);
-
+    background: url(../img/testeback.jpg) rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
     padding: 70px 0px ;
@@ -316,8 +316,8 @@ p{
 
 #services {
     
-    background: url(../img/services_Back.jpg);
- 
+    background: url(../img/services_Back.jpg)  rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
     padding: 70px 0px 0px 0px;
