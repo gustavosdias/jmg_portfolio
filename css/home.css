@@ -11,6 +11,12 @@
 
 }
 
+#home{
+  background: url(../img/2070543.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .logo{
 	position: absolute;
 	padding: 0;
